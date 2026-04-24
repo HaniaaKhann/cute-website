@@ -7,8 +7,8 @@ let size = 16;
 button2.addEventListener("mouseenter", () => {
     button2.style.position = "absolute";
 
-    let x = Math.random() * (window.innerWidth - button2.offsetWidth - 20);
-    let y = Math.random() * (window.innerHeight - button2.offsetHeight - 20);
+    let x = Math.random() * (window.innerWidth - button2.offsetWidth);
+    let y = Math.random() * (window.innerHeight - button2.offsetHeight);
 
     button2.style.left = x + "px";
     button2.style.top = y + "px";
