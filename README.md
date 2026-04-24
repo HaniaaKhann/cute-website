@@ -31,11 +31,11 @@ A fun, aesthetic, soft-girl styled interactive webpage where the user is asked a
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/cute-website.git
+git clone https://github.com/yourusername/cute-website.git 
 
-2. Move into the project folder.
+## 2. Move into the project folder.
 
 ```bash
 cd cute-website
 
-3. Open index.html in your browser.
+## 3. Open index.html in your browser.
