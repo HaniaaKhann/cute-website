@@ -1,28 +1,71 @@
 @import url('https://fonts.cdnfonts.com/css/pixie');
 
+body{
+    background-image: url(assets/v996-024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+}
 
 h1{
     font-family: 'PIXIE', sans-serif;
-    color:aquamarine;
-    text-align: center;                                 
+    color: rgb(117, 53, 53);
+    text-align: center; 
+    font-size: 45px;                                
 }
 
 p{
     font-family: 'PIXIE', sans-serif;
     color:blueviolet;
     text-align: center;
+    font-size: 25px;
 }
 
-.my-button1, .my-button2{
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+/* BOTH BUTTONS */
+.my-button1, .my-button2 {
     font-family: 'PIXIE', sans-serif;
-    color:cornflowerblue;
-    background-color:beige;
+    color: cornflowerblue;
+    background-color: beige;
     border: black solid 2px;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 12px 24px;
+    font-size: 18px;
     transition: all 0.2s ease;
-    transform-origin: center;
-    position: absolute;
 }
 
+.my-button2 {
+    position: relative;
+}
+
+.my-button1{
+    position: relative;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.fly-heart {
+  position: absolute;
+  font-size: 24px;
+  pointer-events: none; /* Allows clicking through the heart */
+  animation: flyUp 1.8s ease-out forwards;
+}
+
+@keyframes flyUp {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-120px); opacity: 0; }
+}
 
