@@ -1,0 +1,28 @@
+@import url('https://fonts.cdnfonts.com/css/pixie');
+
+
+h1{
+    font-family: 'PIXIE', sans-serif;
+    color:aquamarine;
+    text-align: center;                                 
+}
+
+p{
+    font-family: 'PIXIE', sans-serif;
+    color:blueviolet;
+    text-align: center;
+}
+
+.my-button1, .my-button2{
+    font-family: 'PIXIE', sans-serif;
+    color:cornflowerblue;
+    background-color:beige;
+    border: black solid 2px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    transform-origin: center;
+    position: absolute;
+}
+
+
